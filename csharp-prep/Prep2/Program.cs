@@ -30,5 +30,15 @@ class Program
             letter = "F";
         }
         Console.WriteLine($"Your grade is: {letter}");
+
+
+        if (gradeNumber >= 70)
+        {
+            Console.WriteLine("Good job!");
+        }
+        else
+        {
+            Console.WriteLine("You need to do better.");
+        }
     }
 }
