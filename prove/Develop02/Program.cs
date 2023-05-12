@@ -1,9 +1,3 @@
 using System;
-
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Hello Develop02 World!");
-    }
-}
+using System.Collections.Generic;
+using System.IO;
