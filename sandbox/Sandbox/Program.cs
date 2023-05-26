@@ -1,8 +1,9 @@
 using System;
+
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello sandbox World!");
+        Console.WriteLine("Hello Sandbox World!");
     }
 }
