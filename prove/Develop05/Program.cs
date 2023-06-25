@@ -1,9 +1,13 @@
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main()
     {
-        Console.WriteLine("Hello Develop05 World!");
+        EternalQuest eternalQuest = new EternalQuest();
+        eternalQuest.Run();
     }
 }
